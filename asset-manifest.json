@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react/static/css/main.aa3d8039.css",
+    "main.js": "/react/static/js/main.840898f3.js",
+    "static/js/787.5da1e40d.chunk.js": "/react/static/js/787.5da1e40d.chunk.js",
+    "static/media/images9.webp": "/react/static/media/images9.c839d39f2aeb0391f8b2.webp",
+    "static/media/images7.webp": "/react/static/media/images7.180cafc0b1aba0c92314.webp",
+    "static/media/images13.webp": "/react/static/media/images13.081f03016089103532ba.webp",
+    "static/media/images5.webp": "/react/static/media/images5.3f87177285de9e5798fe.webp",
+    "static/media/images3.webp": "/react/static/media/images3.465e0e2c5ad9c365420e.webp",
+    "static/media/images11.webp": "/react/static/media/images11.262a3c29b69231463d2b.webp",
+    "static/media/images10.webp": "/react/static/media/images10.b45c9b4e1a9f66d5bfda.webp",
+    "static/media/images4.webp": "/react/static/media/images4.a26b6e30c23faf7c4544.webp",
+    "static/media/images8.webp": "/react/static/media/images8.c52924a401c4fd5a1725.webp",
+    "static/media/images14.webp": "/react/static/media/images14.5debcec4afc53ea79769.webp",
+    "static/media/images12.webp": "/react/static/media/images12.0b557fc183a68007c2e3.webp",
+    "static/media/images6.webp": "/react/static/media/images6.848bd684378361324536.webp",
+    "index.html": "/react/index.html",
+    "main.aa3d8039.css.map": "/react/static/css/main.aa3d8039.css.map",
+    "main.840898f3.js.map": "/react/static/js/main.840898f3.js.map",
+    "787.5da1e40d.chunk.js.map": "/react/static/js/787.5da1e40d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa3d8039.css",
+    "static/js/main.840898f3.js"
+  ]
+}
