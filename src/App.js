@@ -32,7 +32,7 @@ function App() {
               <Route path="product" element={autuser ? <Product></Product> : <Login></Login>} />
               <Route path="login" element={<Login />} />
               <Route path="blog" element={<Blog />} />
-              <Route path="/filteritems/:type" element={<Filteritems />} />
+              <Route path="filteritems/:type" element={<Filteritems />} />
             </Route>
           </Routes>
           <Modalimg />
