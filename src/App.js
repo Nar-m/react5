@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Layout from "./componets/Layout";
 import Home from "./componets/Home";
 import Productitem from "./componets/productitem";
@@ -19,7 +19,7 @@ function App() {
   const user = useSelector(state => state.login.user)
   const { autuser } = user
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Wishlist />
       <Dropdown />
       <CartProvider>
@@ -39,7 +39,7 @@ function App() {
           <Addcart />
         </ModalProvider>
       </CartProvider>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
