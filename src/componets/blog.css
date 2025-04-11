@@ -1,0 +1,130 @@
+.blog_conteiner {
+    position: relative;
+}
+
+.blog_conteiner .blog-content {
+    padding: 100px 10%;
+}
+
+.blog_conteiner .blog-content h1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 4rem;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.blog_conteiner .blog-content p {
+    color: #fff;
+    font-size: 18px;
+    width: 100%;
+    line-height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 12px;
+}
+
+.blog_conteiner .blog-content button {
+    padding: 13px 30px;
+    background-color: #fff;
+    color: inherit;
+    margin-top: 25px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.blog_conteiner .blog-content button:hover {
+    background-color: rgb(217, 217, 220);
+}
+
+.conteiner {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 3rem 0;
+    text-align: center;
+    position: relative;
+}
+
+.conteiner h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.conteiner .images {
+    height: 20rem;
+    width: 300px;
+    background-color: #4e5156;
+    margin: 0 10px;
+    padding: 0.5rem 1rem 1rem 1rem;
+    border-radius: 5px;
+}
+
+.conteiner .images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.conteiner .btns {
+    position: absolute;
+    right: 3rem;
+    top: 3rem;
+}
+
+.conteiner .btns button {
+    font-size: 1.6rem;
+    margin: 0 12px;
+    color: #fff;
+}
+
+.image-slider-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-color: #1919192a;
+    transform: scale(0);
+    transition: 0.1s all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-slider-wrapper.active {
+    transform: scale(1);
+}
+
+.image-slider-wrapper i {
+    font-size: 35px;
+    color: #fff;
+}
+
+.image-slider-wrapper span {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 45px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+}
+.image-slider-wrapper .img-slider{
+    opacity: 0;
+    transition: 0.5s all;
+}
+.image-slider-wrapper .img-slider.active{
+    opacity: 1;
+    animation-duration: 0.75s;
+    animation-name: fade;
+}
+@keyframes fade{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

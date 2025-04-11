@@ -1,0 +1,9 @@
+.buttons{
+    display: flex;
+    width: 800px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+.buttons::-webkit-scrollbar{
+    display: none;
+}

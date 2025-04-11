@@ -1,0 +1,19 @@
+.sliders{
+    width: 100%;
+    height: 400px;
+}
+.sliders .slid img{
+    width: 100%;
+    height: 450px;
+}
+.sliders .slid{
+    opacity: .5;
+    transform: scale(.7);
+    background-color: #4e5156;
+    padding: 8px;
+    transition: 0.3s all;
+}
+.sliders .slid.active{
+    transform: scale(1);
+    opacity: 1;
+}

@@ -1,0 +1,51 @@
+.shopslider {
+    position: relative;
+    height: 180px;
+    width: 100%;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: black;
+    overflow: hidden;
+    opacity: 0.8;
+}
+
+.shopslider:hover {
+    opacity: 1;
+}
+
+.shopslider .slider {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 0.2s all;
+}
+
+.shopslider .slider img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.shopslider i {
+    padding: 12px;
+    color: black;
+    border-radius: 50%;
+    background-color: rgb(245, 240, 240);
+    position: absolute;
+    opacity: 0.8;
+}
+
+.shopslider i:hover {
+    opacity: 1;
+}
+
+.shopslider .fa-arrow-left {
+    top: 40%;
+    left: 20px;
+    z-index: 1;
+}
+
+.shopslider .fa-arrow-right {
+    top: 40%;
+    right: 20px;
+}

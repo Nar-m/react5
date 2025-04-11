@@ -1,0 +1,20 @@
+.cartplus{
+    position: fixed;
+    top: -100%;
+    left: 40%;
+    padding: 13px;
+    background-color: rgba(0, 0, 0, 0.781);
+    z-index: 2;
+    max-width: 230px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s all;
+    font-size: 17px;
+    border-radius: 5px;
+    color: rgb(27, 27, 37);
+}
+.cartplus.active{
+    top: 22%;
+}

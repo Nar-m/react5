@@ -1,0 +1,87 @@
+.validation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    min-height: 10vh;
+}
+
+.validation .forms {
+    padding: 35px;
+    width: 60%;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.validation .forms p{
+    color: red;
+    font-size: 18px;
+    font-family: 'poppins', sans-serif;
+}
+.validation .forms input {
+    min-height: auto;
+    padding-top: 0.32rem;
+    padding-bottom: 0.32rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    outline: none;
+    background: rgba(0, 0, 0, 0);
+    transition: all .2s linear;
+    display: block;
+    width: 180%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.validation .forms .placholder {
+    position: absolute;
+    top: 0;
+    max-width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    left: 0.75rem;
+    font-weight: 400;
+    padding-top: 0.37rem;
+    pointer-events: none;
+    transform-origin: 0 0;
+    transition: all .2s ease-out;
+    color: #4f4f4f;
+    margin-bottom: 0;
+}
+
+.validation .forms input:focus {
+    border: 2px solid #2196f3;
+}
+
+.validation .forms input:focus+.placholder {
+    color: #2196f3;
+    top: -20px;
+    background-color: #fff;
+}
+
+.validation .forms button {
+    width: 180%;
+    background-color: #3b71ca;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 15px;
+    box-shadow: 0 8px 9px -4px rgba(56, 107, 192, 0.3), 0 4px 18px 0 rgba(56, 107, 192, 0.2);
+}
+
+;
+
+.validation .forms button:hover {
+    background-color: #7abdf3;
+}
+
+@media screen and (max-width: 850px){
+    .login-title{
+        text-align: center;
+    }
+}

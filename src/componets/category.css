@@ -1,0 +1,20 @@
+@media screen and (max-width: 670px){
+    .store .categorys{
+        max-width: 800px;
+        width: 100%;
+    }
+    .store .dott-img{
+        width: 150px;
+        height: 150px;
+    }
+    .store .dott-img img{
+        width: 100%;
+        object-fit: contain;
+        height: 100%;
+    }
+}
+@media screen and (max-width: 870px){
+    .store .dott-img img{
+       object-fit: contain;
+    }
+}

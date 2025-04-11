@@ -1,0 +1,32 @@
+.modalimg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.699);
+    backdrop-filter: blur(5px);
+    transition: 0.1s;
+    transform: scale(0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.modalimg.active {
+    transform: scale(1);
+}
+.modalimg i{
+    font-size: 38px;
+    color: rgb(180, 180, 180);
+}
+.modalimg i:hover{
+    color: white;
+}
+.modalimg span{
+    color: rgb(180, 180, 180);
+}
+.modalimg span:hover{
+    color: white;
+}

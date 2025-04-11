@@ -1,0 +1,56 @@
+.product-detalis {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+}
+
+.product-detalis .product-page {
+    max-width: 450px;
+    width: 100%;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+}
+.product-detalis span{
+    position: absolute;
+    color: black;
+    z-index: 2;
+    top: 50%;
+    cursor: pointer;
+}
+
+.product-detalis .product-page .pro-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.product-detalis .dott-img {
+    display: flex;
+    justify-content: center;
+    max-width: 900px;
+    width: 100%;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.product-detalis .dott-img .slider-box {
+    min-width: 100px;
+    width: 100px;
+    height: 100px;
+    margin: 0 30px;
+    transform: scale(0.6);
+}
+.product-detalis .dott-img .slider-box.active{
+    transform: scale(1.2);
+}
+.product-detalis .dott-img::-webkit-scrollbar{
+    display: none;
+}
+.product-detalis .dott-img .slider-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: inline-block;
+}

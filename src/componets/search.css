@@ -1,0 +1,16 @@
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.input-group .btn-primary{
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    background-color: #3b71ca;
+    color: #fff;
+    padding: 6px 20px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}

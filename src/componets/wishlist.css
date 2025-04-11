@@ -1,0 +1,63 @@
+.wishlist {
+    position: fixed;
+    right: -100%;
+    top: 0;
+    width: 40vw;
+    height: 100vh;
+    z-index: 90;
+    background-color: white;
+    box-shadow: 0 0 10px 0 #111;
+    transition: 0.2s all;
+    overflow-y: scroll;
+    scrollbar-width: normal;
+    scrollbar-color: #777;
+}
+.wishlist::-webkit-scrollbar-track{
+    background-color: #d2d0d0;
+}
+.wishlist::-webkit-scrollbar {
+    width: 10px;
+}
+.wishlist::-webkit-scrollbar-thumb{
+    background-color: #757373;
+    border-radius: 8px;
+}
+.wishlist.open {
+    right: 0;
+}
+
+.wishlist .close i:hover {
+    color: black;
+}
+@media screen and (max-width: 990px){
+    .wishlist{
+        width: 50vw;
+    }
+    .wishlist span{
+        white-space: nowrap;
+    }
+}
+@media screen and (max-width: 900px){
+    .wishlist{
+        width: 60vw;
+    }
+    .wishlist span{
+        white-space: nowrap;
+    }
+}
+@media screen and (max-width: 670px){
+    .wishlist{
+        width: 80vw;
+    }
+    .wishlist span{
+        white-space: nowrap;
+    }
+}
+@media screen and (max-width: 570px){
+    .wishlist{
+        width: 85vw;
+    }
+    .wishlist span{
+        white-space: nowrap;
+    }
+}
